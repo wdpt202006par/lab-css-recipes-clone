@@ -1,6 +1,11 @@
-header img {
-    width: 800px;
-    height: auto;
+header  {
+    width: 1200px;
+    height: 700px;
+}
+header img  {
+    width: 1200px;
+    height: 700px;     
+    overflow: hidden;
 }
 
 header h1 {
