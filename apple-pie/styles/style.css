@@ -1,3 +1,29 @@
-body {
-    background-color: red;
+h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+
+}
+
+.background {
+    background-image: url("../images/apple-pie.jpg");
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    margin: auto;
+    width: 600px;
+}
+
+#first-paragraph {
+    text-align: center;
+}
+
+img {
+    margin: auto;
+    display: block;
+    max-width: 50%;
 }
