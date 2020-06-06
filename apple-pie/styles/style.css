@@ -18,3 +18,21 @@ h1 {
   text-align:center;
   padding-top:250px;
 }
+#recette{
+  margin: 0px 150px ;
+}
+#histoire {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-family: "Open Sans";
+  text-align: center;
+  color: rgb(82, 77, 77);
+}
+#recipe-info{
+  width: 400px;
+}
+hr {
+  border-top: 2px solid darkgray;
+   
+}
