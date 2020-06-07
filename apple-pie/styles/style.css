@@ -1,6 +1,6 @@
 html, body {
-  margin-right:5rem;
-  margin-left: 5rem;
+  margin-right:2rem;
+  margin-left: 2rem;
   padding:0;
   font-family:"Open Sans";
   color: rgb(82, 77, 77);
@@ -23,7 +23,7 @@ h1 {
 }
 
 #recette{
-  margin: 0px 150px ;
+  margin: 0px 100px ;
 }
 
 #histoire {
@@ -65,7 +65,9 @@ h2 {
   margin-top:40px;
   margin-bottom:20px;
 }
+
 ul.direction-section {
   list-style-type: none;
   margin-block-end: 3rem;
+
 }
