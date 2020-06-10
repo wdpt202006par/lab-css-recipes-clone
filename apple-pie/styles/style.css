@@ -1,0 +1,83 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  /*background: url("../images/apple-pie.jpg");*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 600px;
+  margin: 0px;
+  border: 0px;
+}
+header img {
+  width: 1200px;
+  height: 600px;
+}
+
+.coverImage {
+  object-fit: cover;
+}
+
+header h1 {
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+  font-weight: lighter;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-info {
+  width: 60%;
+  color: rgba(0, 0, 0, 0.5);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  align-items: center;
+  opacity: 0.8;
+  padding: 0 0 30px 0;
+}
+
+p {
+  font-size: 1.7em;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 50px 50px 30px 50px;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+
+.list {
+  border-top: 4px solid gray;
+  margin-left: 140px;
+  margin-right: 140px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  font-size: 1.2em;
+}
+
+#orderedList {
+  font-size: 1.2em;
+  list-style-type: symbols(cyclic, ")");
+} /* HOW TO WRITE ")" AFTER THE LIST COUNTER ?*/
+
+.sectionTitle {
+  padding-top: 30px;
+}
